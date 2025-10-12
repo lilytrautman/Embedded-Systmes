@@ -1,0 +1,212 @@
+{
+  "additional_test": [
+    [
+      {
+        "mtype": "config",
+        "from": "*",
+        "to": "scanning_ir_camera1",
+        "name": "mode",
+        "value": "auto"
+      },
+      {
+        "mtype": "debug",
+        "from": "scanning_ir_camera1",
+        "to": "*",
+        "name": "successful_command",
+        "message": "mtype: 'config' name: 'mode' value: 'auto' ran successfully."
+      }
+    ],
+    [
+      {
+        "mtype": "debug",
+        "from": "*",
+        "to": "scanning_ir_camera1",
+        "name": "successful_command",
+        "message": "mtype: 'config' name: 'calibration_time_ms' value: '2000' ran successfully."
+      },
+      {
+        "mtype": "error",
+        "from": "scanning_ir_camera1",
+        "to": "*",
+        "name": "JSON_error",
+        "message": "Unsupported 'mtype' value: debug"
+      }
+    ],
+    [
+      {
+        "mtype": "config",
+        "from": "*",
+        "to": "scanning_ir_camera1",
+        "name": "manual_threshold",
+        "value": 20
+      },
+      {
+        "mtype": "debug",
+        "from": "scanning_ir_camera1",
+        "to": "*",
+        "name": "successful_command",
+        "message": "mtype: 'config' name: 'manual_threshold' value: '20' ran successfully."
+      }
+    ],
+    [
+      {
+        "mtype": "config",
+        "from": "*",
+        "to": "scanning_ir_camera1",
+        "name": "calibration_time_ms",
+        "value": 0.01
+      },
+      {
+        "mtype": "error",
+        "from": "scanning_ir_camera1",
+        "to": "*",
+        "name": "JSON_error",
+        "message": "Unsupported 'calibration_time_ms' value: 0"
+      }
+    ],
+    [
+      {
+        "mtype": "config",
+        "from": "*",
+        "to": "scanning_ir_camera1",
+        "name": "sample_rate_ms",
+        "value": 100000
+      },
+      {
+        "mtype": "error",
+        "from": "scanning_ir_camera1",
+        "to": "*",
+        "name": "JSON_error",
+        "message": "Unsupported 'sample_rate_ms' value: 100000"
+      }
+    ],
+    [
+      {
+        "mtype": "config",
+        "from": "*",
+        "to": "scanning_ir_camera1",
+        "name": "calibration_time_ms",
+        "value": "2000"
+      },
+      {
+        "mtype": "debug",
+        "from": "scanning_ir_camera1",
+        "to": "*",
+        "name": "successful_command",
+        "message": "mtype: 'config' name: 'calibration_time_ms' value: '2000' ran successfully."
+      }
+    ],
+    [
+      {
+        "mtype": "config",
+        "from": "*",
+        "to": "scanning_ir_camera1",
+        "name": "manual_threshold",
+        "value": true
+      },
+      {
+        "mtype": "debug",
+        "from": "scanning_ir_camera1",
+        "to": "*",
+        "name": "successful_command",
+        "message": "mtype: 'config' name: 'manual_threshold' value: 'true' ran successfully."
+      }
+    ],
+    [
+      {
+        "mtype": "config",
+        "from": "*",
+        "to": "scanning_ir_camera1",
+        "name": "manual_angle",
+        "value": [90]
+      },
+      {
+        "mtype": "debug",
+        "from": "scanning_ir_camera1",
+        "to": "*",
+        "name": "successful_command",
+        "message": "mtype: 'config' name: 'manual_angle' value: '[90]' ran successfully."
+      }
+    ],
+    [
+      {
+        "mtype": "config",
+        "from": "*",
+        "to": "scanning_ir_camera1",
+        "name": "frequency_rate_ms",
+        "value": null
+      },
+      {
+        "mtype": "error",
+        "from": "scanning_ir_camera1",
+        "to": "*",
+        "name": "JSON_error",
+        "message": "Unsupported 'frequency_rate_ms' value: 0"
+      }
+    ],
+    [
+      {
+        "mtype": "",
+        "from": "*",
+        "to": "scanning_ir_camera1",
+        "name": "mode",
+        "value": "auto"
+      },
+      {
+        "mtype": "error",
+        "from": "scanning_ir_camera1",
+        "to": "*",
+        "name": "JSON_error",
+        "message": "Unsupported 'mtype' value: "
+      }
+    ],
+    [
+      {
+        "mtype": "config",
+        "from": "*",
+        "to": "scanning_ir_camera1",
+        "name": "mode",
+        "value": "auto"
+      },
+      {
+        "mtype": "debug",
+        "from": "scanning_ir_camera1",
+        "to": "*",
+        "name": "successful_command",
+        "message": "mtype: 'config' name: 'mode' value: 'auto' ran successfully."
+      }
+    ],
+    [
+      {
+        "mtype": "Config",
+        "from": "*",
+        "to": "scanning_ir_camera1",
+        "name": "manual_angle",
+        "value": 90
+      },
+      {
+        "mtype": "error",
+        "from": "scanning_ir_camera1",
+        "to": "*",
+        "name": "JSON_error",
+        "message": "Unsupported 'mtype' value: Config"
+      }
+    ],
+    [
+      {
+        "mtype": "config",
+        "from": "*",
+        "to": "scanning_ir_camera1",
+        "name": "manual_threshold<script>",
+        "value": 20.0
+      },
+      {
+        "mtype": "error",
+        "from": "scanning_ir_camera1",
+        "to": "*",
+        "name": "JSON_error",
+        "message": "Unsupported 'name' value: manual_threshold<script>"
+      }
+    ]
+  ]
+}

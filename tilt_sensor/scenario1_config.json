@@ -1,0 +1,7 @@
+{
+    "tilt_sensor1":{
+        "smoothing": 5,
+        "frequency": 10,
+        "threshold": 5.0
+    }
+}

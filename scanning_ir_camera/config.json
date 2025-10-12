@@ -1,0 +1,132 @@
+{
+  "config_tests": [
+    [
+      {
+        "mtype": "config",
+        "from": "*",
+        "to": "scanning_ir_camera1",
+        "name": "calibration_time_ms",
+        "value": 2000
+      },
+      {
+        "mtype": "debug",
+        "from": "scanning_ir_camera1",
+        "to": "*",
+        "name": "successful_command",
+        "message": "mtype: 'config' name: 'calibration_time_ms' value: '2000' ran successfully."
+      }
+    ],
+    [
+      {
+        "mtype": "config",
+        "from": "*",
+        "to": "scanning_ir_camera1",
+        "name": "sample_rate_ms",
+        "value": 200
+      },
+      {
+        "mtype": "debug",
+        "from": "scanning_ir_camera1",
+        "to": "*",
+        "name": "successful_command",
+        "message": "mtype: 'config' name: 'sample_rate_ms' value: '200' ran successfully."
+      }
+    ],
+    [
+      {
+        "mtype": "config",
+        "from": "*",
+        "to": "scanning_ir_camera1",
+        "name": "manual_threshold",
+        "value": 20.0
+      },
+      {
+        "mtype": "debug",
+        "from": "scanning_ir_camera1",
+        "to": "*",
+        "name": "successful_command",
+        "message": "mtype: 'config' name: 'manual_threshold' value: '20' ran successfully."
+      }
+    ],
+    [
+      {
+        "mtype": "config",
+        "from": "*",
+        "to": "scanning_ir_camera1",
+        "name": "mode",
+        "value": "manual"
+      },
+      {
+        "mtype": "debug",
+        "from": "scanning_ir_camera1",
+        "to": "*",
+        "name": "successful_command",
+        "message": "mtype: 'config' name: 'mode' value: 'manual' ran successfully."
+      }
+    ],
+    [
+      {
+        "mtype": "config",
+        "from": "*",
+        "to": "scanning_ir_camera1",
+        "name": "manual_angle",
+        "value": 45
+      },
+      {
+        "mtype": "debug",
+        "from": "scanning_ir_camera1",
+        "to": "*",
+        "name": "successful_command",
+        "message": "mtype: 'config' name: 'manual_angle' value: '45' ran successfully."
+      }
+    ],
+    [
+      {
+        "mtype": "config",
+        "from": "*",
+        "to": "scanning_ir_camera1",
+        "name": "frequency_rate_ms",
+        "value": 2000
+      },
+      {
+        "mtype": "debug",
+        "from": "scanning_ir_camera1",
+        "to": "*",
+        "name": "successful_command",
+        "message": "mtype: 'config' name: 'frequency_rate_ms' value: '2000' ran successfully."
+      }
+    ],
+    [
+      {
+        "mtype": "config",
+        "from": "*",
+        "to": "scanning_ir_camera1",
+        "name": "smoothing_amount",
+        "value": 3.0
+      },
+      {
+        "mtype": "debug",
+        "from": "scanning_ir_camera1",
+        "to": "*",
+        "name": "successful_command",
+        "message": "mtype: 'config' name: 'smoothing_amount' value: '3' ran successfully."
+      }
+    ],
+    [
+      {
+        "mtype": "config",
+        "from": "*",
+        "to": "scanning_ir_camera1",
+        "name": "mode",
+        "value": "auto"
+      },
+      {
+        "mtype": "debug",
+        "from": "scanning_ir_camera1",
+        "to": "*",
+        "name": "successful_command",
+        "message": "mtype: 'config' name: 'mode' value: 'auto' ran successfully."
+      }
+    ]
+  ]
+}
