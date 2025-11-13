@@ -1,0 +1,9 @@
+{
+    "vibration_sensor1": {
+        "baseline_vibration": 0,
+        "sample_rate" : 10,
+        "threshold" : 3,
+        "smoothing" : 3,
+        "broadcast_rate" : 1
+    }
+}
